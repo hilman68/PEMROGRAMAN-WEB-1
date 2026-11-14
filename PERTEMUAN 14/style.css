@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaf2ff;
+    margin: 0;
+    padding: 30 px;
+}
+
+img {
+    display: block;       
+    margin-left: auto;
+    margin-right: auto;
+    width:30%;           
+}
+
+.container {
+    width: 420px;
+    max-width: 90%;
+    margin: auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px #0002;
+}
+
+h1 {
+    color: navy;
+    text-align: center;
+    font-size: 24px;
+}
+
+p {
+    text-align: center;
+    color: #666;
+}
+
+label{
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+
+.btn-hitung {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-hapus {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: olive;
+}
+
+#hasil{
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f0f4ff;
+    border-radius: 5px;
+}
+

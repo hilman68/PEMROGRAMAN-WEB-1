@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang = "id">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Latihan Validasi Form</title>
+    <style>
+        .form-group{
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px ;
+            font-weight: bold;
+        }
+        input {
+            width: 100%;
+            padding : 8px;
+            box-sizing: border-box;
+        }
+        /*style untuk pesan eror */
+        .error-message{
+            color: red;
+            font-size: 0.85em;
+            margin-top: 5px;
+            display: none;
+        }
+        .input-error{
+            border: 2px solid red ;
+        }
+        .input-success{
+            border: 2px solid green;
+        }
+        
+    </style>
+</head>
+<body>
+    <h2>Form Pendaftaran Mahasiswa</h2>
+    <form id ="formRegistrasi" novalidate>
+        <div class="form-group">
+            <label for="nama"> Nama Lengkap</label>
+            <input type="text" id="nama" placeholder="Masukkan nama...">
+            <small class="error-message" id="errNama"></small>
+            
+        </div>
+        <div class="form-group">
+            <label for="email"> Email</label>
+            <input type="email" id="email" placeholder="contoh@unpam.ac.id">
+            <small class="error-message" id="errEmail"></small>            
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="minimal 8 karakter">
+            <small class="error-message" id="errPassword"></small>            
+        </div>
+        <div class="form-group">
+            <label for="konfirmasiPassword">Konfirmasi Password</label>
+            <input type="password" id="konfirmasiPassword" placeholder="Ulangi Password">
+            <small class="error-message" id="errKonfirmasiPassword"></small>
+        </div>
+        <button type="submit">Daftar Sekarang </button>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+
+</html>

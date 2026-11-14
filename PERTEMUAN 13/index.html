@@ -1,0 +1,56 @@
+<!DOCTYPE html>!
+<html lang = "id">
+<head>
+    <meta charset="UTF-8">
+    <meta name ="viewport"
+            content="device-width. initial-scale=1.0">
+    <title> Sistem Data Mahasiswa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class ="container">
+        <h1> Sistem Data Mahasiswa</h1>
+        <p>praktikum AJAX untuk data dinamis</p>
+        <button onclick="ambilData()"> 
+            Tampilkan Data Mahasiswa
+        </button>
+        <br><br>
+        <input 
+            type="text"
+            id="cari"
+            placeholder="Cari Nama Mahasiswa..."
+            onkeyup="cariMahasiswa()"
+        >
+        <select id="Jurusan" onchange="cariMahasiswa()">
+            <option value="">Semua Jurusan</option>
+            <option value="Teknik Informatika">
+                Teknik Informatika
+            </option>
+            <option value="Sistem Informasi">
+                Sistem Informasi
+            </option>
+            
+        </select>
+        <p id="status"></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>NIM</th>
+                    <th>Nama</th>
+                    <th>Jurusan</th>
+                    <th>Semester</th>
+                </tr>
+            </thead>
+            <tbody id="tabelMahasiswa">
+            </tbody>
+        </table>        
+    </div>
+    <script src="script.js"></script>
+</body>
+
+
+</html>
+
+
+

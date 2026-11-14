@@ -1,0 +1,159 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap');
+
+/* Reset & Base Style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+    background-color: #0b0a10;
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+/* Header & Navbar */
+header {
+    background-color: #12101a;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #1a1825;
+}
+
+.logo {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #a0a0b0;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+nav ul li.divider {
+    color: #333142;
+}
+
+.btn-contact {
+    border: 1px solid #6c5ce7;
+    color: #a29bfe;
+    padding: 10px 22px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.btn-contact:hover {
+    background-color: #6c5ce7;
+    color: #ffffff;
+    box-shadow: 0 0 15px rgba(108, 92, 231, 0.4);
+}
+
+/* Hero Section / Content Utama */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 8%;
+    min-height: calc(100vh - 160px);
+}
+
+.hero-text {
+    max-width: 550px;
+}
+
+.hero-text h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.hero-text h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+
+.hero-text h1 span {
+    color: #7d5fff;
+    text-shadow: 0 0 20px rgba(125, 95, 255, 0.3);
+}
+
+.hero-text p {
+    color: #8e8e9e;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/* Hero Image & Dekorasi Elemen */
+.hero-image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image img {
+    width: 320px;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 120px 120px 20px 20px;
+    position: relative;
+    z-index: 2;
+    background: #1a1728;
+}
+
+/* Aksesori Dekorasi (+) dan (O) */
+.decor-plus {
+    position: absolute;
+    top: 20px;
+    right: -20px;
+    color: #7d5fff;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.decor-circle {
+    position: absolute;
+    bottom: 40px;
+    right: -40px;
+    width: 35px;
+    height: 35px;
+    border: 3px solid #2a273a;
+    border-radius: 50%;
+}
+
+/* Footer / Baris Bawah */
+footer {
+    padding: 20px 8%;
+    border-top: 1px solid #1a1825;
+    display: flex;
+    justify-content: space-between;
+    color: #555465;
+    font-size: 0.85rem;
+}

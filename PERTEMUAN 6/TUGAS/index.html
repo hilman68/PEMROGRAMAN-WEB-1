@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teknik Informatika - Fakultas Teknologi Informasi</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">
+                <div class="logo-icon"><i class="fa-solid fa-code"></i></div>
+                <span>Teknik Informatika</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#hero" class="nav-link">Beranda</a></li>
+                <li><a href="#keunggulan" class="nav-link">Keunggulan</a></li>
+                <li><a href="#galeri" class="nav-link">Galeri</a></li>
+                <li><a href="#info" class="nav-link">Pengumuman</a></li>
+            </ul>
+            <button class="btn-primary">
+                <span>Daftar Sekarang</span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fa-solid fa-sparkles"></i>
+                    <span>Akreditasi Unggul (A) — BAN-PT</span>
+                </div>
+                <h1 class="hero-title">
+                    Mencetak Talenta Digital & <span>Inovator Masa Depan</span>
+                </h1>
+                <p class="hero-description">
+                    Program Studi Teknik Informatika berfokus pada pengembangan Software Engineering, Artificial Intelligence, Cybersecurity, dan Data Science dengan kurikulum standar industri internasional.
+                </p>
+                <div class="hero-actions">
+                    <button class="btn-primary">
+                        <span>Jelajahi Kurikulum</span>
+                        <i class="fa-solid fa-compass"></i>
+                    </button>
+                    <button class="btn-secondary">Lihat Fasilitas</button>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="hero-card-grid">
+                    <!-- Grid Item yang menggunakan grid-column: span 2 -->
+                    <div class="hero-feature-span">
+                        <div class="hero-feature-header">
+                            <span class="focus-badge"><i class="fa-solid fa-microchip"></i> FOCUS AREA</span>
+                            <span class="status-badge">Active</span>
+                        </div>
+                        <h4 class="feature-title">AI & Modern Web Architecture</h4>
+                        <p class="feature-desc">Pembelajaran komprehensif menguasai Next.js, Cloud Computing, dan Machine Learning.</p>
+                    </div>
+                    <div class="mini-stat-card">
+                        <div class="mini-stat-number">98%</div>
+                        <div class="mini-stat-label">Lulusan Bekerja &lt; 3 Bulan</div>
+                    </div>
+                    <div class="mini-stat-card">
+                        <div class="mini-stat-number">50+</div>
+                        <div class="mini-stat-label">Mitra Industri Tech</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="keunggulan" class="section-padding">
+            <div class="section-header">
+                <div class="section-subtitle">Mengapa Memilih Kami</div>
+                <h2 class="section-title">Keunggulan Program Studi</h2>
+            </div>
+
+            <div class="info-cards-grid">
+                <!-- Card 1 -->
+                <div class="info-card">
+                    <div>
+                        <div class="card-icon blue">
+                            <i class="fa-solid fa-laptop-code"></i>
+                        </div>
+                        <h3>Kurikulum Berbasis AI</h3>
+                        <p>Kurikulum yang dirancang bersama pakar industri untuk memenuhi kebutuhan zaman di bidang kecerdasan buatan, cloud, dan software development.</p>
+                    </div>
+                    <span class="card-tag">Lihat Detail Silabus &rarr;</span>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="info-card">
+                    <div>
+                        <div class="card-icon cyan">
+                            <i class="fa-solid fa-award"></i>
+                        </div>
+                        <h3>Akreditasi Unggul</h3>
+                        <p>Mengantongi predikat Unggul dari BAN-PT serta sertifikasi standar kualitas pendidikan teknologi internasional (IABEE).</p>
+                    </div>
+                    <span class="card-tag">Unduh Sertifikat &rarr;</span>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="info-card">
+                    <div>
+                        <div class="card-icon emerald">
+                            <i class="fa-solid fa-briefcase"></i>
+                        </div>
+                        <h3>Prospek Karir Global</h3>
+                        <p>Jaminan penyaluran kerja dan magang di berbagai BUMN, Unicorn Technology, serta instansi pemerintahan bereputasi.</p>
+                    </div>
+                    <span class="card-tag">Lihat Alumni Success &rarr;</span>
+                </div>
+            </div>
+        </section>
+
+        <div id="info" class="main-layout">
+            <!-- Galeri Kegiatan (Challenge: auto-fit + minmax()) -->
+            <div class="gallery-container" id="galeri">
+                <div class="gallery-header">
+                    <div>
+                        <h2 class="gallery-heading">Galeri Kegiatan</h2>
+                        <p class="gallery-subheading">Potret aktivitas akademik, hackathon, dan laboratorium riset.</p>
+                    </div>
+                </div>
+
+                <!-- Challenge Requirement: repeat(auto-fit, minmax()) -->
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="images/hackathon.jpg" alt="Hackathon" onerror="this.src='https://placehold.co/600x400/1e293b/ffffff?text=Hackathon+2026'">
+                        <div class="gallery-overlay">
+                            <div class="gallery-title">National Hackathon 2026</div>
+                            <div class="gallery-desc">Juara 1 Kategori Smart City Solution</div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/lab-riset.jpg" alt="Collaborative Lab" onerror="this.src='https://placehold.co/600x400/1e293b/ffffff?text=Lab+Riset'">
+                        <div class="gallery-overlay">
+                            <div class="gallery-title">Software Engineering Lab</div>
+                            <div class="gallery-desc">Sesi Kolaborasi Projects Mahasiswa</div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/kuliah-tamu.jpg" alt="Guest Lecture" onerror="this.src='https://placehold.co/600x400/1e293b/ffffff?text=Kuliah+Tamu'">
+                        <div class="gallery-overlay">
+                            <div class="gallery-title">Tech Talk International</div>
+                            <div class="gallery-desc">Narasumber Senior Architect dari Google</div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/cyber-security.jpg" alt="Cyber Security Workshop" onerror="this.src='https://placehold.co/600x400/1e293b/ffffff?text=Cyber+Security'">
+                        <div class="gallery-overlay">
+                            <div class="gallery-title">Cyber Security Workshop</div>
+                            <div class="gallery-desc">Simulasi CTF (Capture The Flag)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <!-- Sidebar Info Tambahan -->
+            <aside class="sidebar">
+                <!-- Widget Pengumuman -->
+                <div class="widget">
+                    <h3 class="widget-title">
+                        <i class="fa-solid fa-bullhorn"></i>
+                        <span>Pengumuman</span>
+                    </h3>
+                    <ul class="announcement-list">
+                        <li class="announcement-item">
+                            <span class="announcement-date">24 September 2026</span>
+                            <a href="#" class="announcement-link">Pendaftaran Gelombang III Seleksi Mandiri Informatika</a>
+                        </li>
+                        <li class="announcement-item">
+                            <span class="announcement-date">18 September 2026</span>
+                            <a href="#" class="announcement-link">Jadwal Pelaksanaan Sidang Skripsi Periode Semester Ganjil</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Widget Event / Webinar -->
+                <div class="widget">
+                    <h3 class="widget-title">
+                        <i class="fa-solid fa-calendar-check"></i>
+                        <span>Webinar Mendatang</span>
+                    </h3>
+                    <div class="event-card">
+                        <span class="event-badge">LIVE WEBINAR</span>
+                        <h4 class="event-title">Building Scalable Apps with AI</h4>
+                        <p class="event-speaker">Pembicara: Tech Lead Tokopedia</p>
+                        <p class="event-time"><i class="fa-regular fa-clock"></i> Sabtu, 28 Sept 2026 • 09:00 WIB</p>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo footer-logo">
+                        <div class="logo-icon"><i class="fa-solid fa-code"></i></div>
+                        <span>Teknik Informatika</span>
+                    </a>
+                    <p>Mencetak lulusan unggul dan berdaya saing global di bidang sains data, kecerdasan buatan, dan teknologi informasi.</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-btn"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" class="social-btn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#" class="social-btn"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-btn"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Program</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Sarjana (S1) Regular</a></li>
+                        <li><a href="index.html">S1 Kelas Internasional</a></li>
+                        <li><a href="index.html">Magister (S2) Computer Science</a></li>
+                        <li><a href="index.html">Program Fast-Track S1-S2</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Akademik</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Kurikulum & Mata Kuliah</a></li>
+                        <li><a href="index.html">Laboratorium Riset</a></li>
+                        <li><a href="index.html">Jurnal & Publikasi</a></li>
+                        <li><a href="index.html">Dosen & Staf Pengajar</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Kontak</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html"><i class="fa-solid fa-envelope"></i> teknikinnformatika.ac.id</a></li>
+                        <li><a href="index.html"><i class="fa-solid fa-phone"></i> 085697602283 </a></li>
+                        <li><a href="index.html"><i class="fa-solid fa-location-dot"></i> Gedung Dekanat FTI, Kampus Utama</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Program Studi Teknik Informatika. All Rights Reserved. Designed for Mini Project Tugas Grid.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

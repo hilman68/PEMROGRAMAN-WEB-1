@@ -1,0 +1,72 @@
+[
+    {
+    "nim": "2310110001",
+    "nama": "Andi Saputra",
+    "Jurusan": "Teknik Informatika",
+    "Semester": 3
+    },
+
+    {
+    "nim": "2310110002",
+    "nama": "Ayu Astari",
+    "Jurusan": "Teknik Informatika",
+    "Semester": 4
+    },
+
+    {
+    "nim": "2310110003",
+    "nama": "Budi Santoso",
+    "Jurusan": "Teknik Informatika",
+    "Semester": 5
+    },
+
+    {
+    "nim": "2310110004",
+    "nama": "Citra Amelia",
+    "Jurusan": "Sistem Informasi",
+    "Semester": 3
+    },
+
+    {
+    "nim": "2310110005",
+    "nama": "Dewi Lestari",
+    "Jurusan": "Sistem Informasi",
+    "Semester": 5
+    },
+
+    {
+    "nim": "2310110006",
+    "nama": "Dian Eka Wati",
+    "Jurusan": "Teknik Informatika",
+    "Semester": 6
+    },
+
+    {
+    "nim": "2310110007",
+    "nama": "Eko Pratama",
+    "Jurusan": "Teknik Informatika",
+    "Semester": 1
+    },
+
+    {
+    "nim": "2310110008",
+    "nama": "Fitri Handayani",
+    "Jurusan": "Sistem Informasi",
+    "Semester": 1
+    },
+
+    {
+    "nim": "2310110009",
+    "nama": "Faqih Mubarok",
+    "Jurusan": "Sistem Informasi",
+    "Semester":2
+    },
+    
+    {
+    "nim": "2310110010",
+    "nama": "Fauzan Al Ayubi",
+    "Jurusan": "Teknik Informatika",
+    "Semester": 3
+    }
+
+]
